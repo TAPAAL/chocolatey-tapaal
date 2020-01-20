@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>tapaal</id>
+    <version>3.6.0</version>
+
+    <title>TAPAAL</title>
+    <authors>tapaal team</authors>
+    
+    <!-- projectUrl is required for the community feed -->
+    <projectUrl>http://tapaal.net/</projectUrl>
+    <!--<iconUrl>http://cdn.rawgit.com/__REPLACE_YOUR_REPO__/master/icons/tapaal.png</iconUrl>-->
+    
+    <!--<copyright>2020 - TAPAAL team</copyright>
+    <licenseUrl>http://tapaal.net/download/#License</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>-->
+    
+    <projectSourceUrl>https://launchpad.net/tapaal</projectSourceUrl>
+    <bugTrackerUrl>https://bugs.launchpad.net/tapaal</bugTrackerUrl>
+    <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
+    <!--<mailingListUrl></mailingListUrl>-->
+    <releaseNotes>http://tapaal.net/download/changelog/</releaseNotes>
+
+    <!-- owners is a poor name for maintainers of the package. It sticks around by this name for compatibility reasons. It basically means you. -->
+    <owners>kyrke</owners>
+    <packageSourceUrl>https://github.com/TAPAAL/chocolatey-tapaal</packageSourceUrl>
+    <tags>tapaal modelchecker verification scentific</tags>
+    
+    <summary>TAPAAL is free software for modeling and verification of Petri nets.</summary>
+    <description><![CDATA[
+TAPAAL is a tool for
+
+ - modelling, simulation and verification of
+ - Timed-Arc Petri nets
+ - developed at Department of Computer Science at AALborg University in Denmark
+ - and available for Linux, Windows and Mac OS X platforms.
+    ]]></description>
+
+    
+    <dependencies>
+      <!--<dependency id="adoptopenjdk" version="8.192" />-->
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
