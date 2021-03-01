@@ -16,5 +16,5 @@ $packageArgs = @{
   checksumType64= 'sha256' 
 
 }
-
+[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12 # Attemped workarround for TSL 1.2 not working on chocolatey validation servers, due to powershell 4.0 
 Install-ChocolateyZipPackage @packageArgs 
