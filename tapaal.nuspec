@@ -3,21 +3,21 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>tapaal</id>
-    <version>3.6.1</version>
+    <version>3.7.1</version>
 
     <title>TAPAAL</title>
     <authors>tapaal team</authors>
     
-    <projectUrl>http://tapaal.net/</projectUrl>
+    <projectUrl>https://www.tapaal.net/</projectUrl>
     <iconUrl>https://rawcdn.githack.com/TAPAAL/chocolatey-tapaal/f3b26bd406df34d134cb2a441b73c707fd15312e/images/tapaal-128x128.png</iconUrl>
     
-    <copyright>(c) 2020 - TAPAAL team</copyright>
-    <licenseUrl>http://tapaal.net/download/#License</licenseUrl>
+    <copyright>(c) 2021 - TAPAAL team</copyright>
+    <licenseUrl>https://www.tapaal.net/download/#License</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     
     <projectSourceUrl>https://launchpad.net/tapaal</projectSourceUrl>
     <bugTrackerUrl>https://bugs.launchpad.net/tapaal</bugTrackerUrl>
-    <releaseNotes>http://tapaal.net/download/changelog/</releaseNotes>
+    <releaseNotes>https://www.tapaal.net/download/changelog/</releaseNotes>
 
     <owners>kyrke</owners>
     <packageSourceUrl>https://github.com/TAPAAL/chocolatey-tapaal</packageSourceUrl>
