@@ -1,8 +1,8 @@
 ﻿$ErrorActionPreference = 'Stop'; # stop on all errors
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
-$url64      = 'http://download.tapaal.net/tapaal/tapaal-3.7/tapaal-3.7.1-win64.zip'
-$checksum64  = '5672F7A143B6127D0D6957B2C6BCF0CB7A32221B165265E3681BDF3E5FE212B5'
+$url64      = 'https://download.tapaal.net/tapaal/tapaal-3.8/tapaal-3.8.0-win64.zip'
+$checksum64  = '459ED9A1BB796039A1A20AEB6C16A2021FBC8C8279644DED8C2F8D5D7CAD6274'
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
