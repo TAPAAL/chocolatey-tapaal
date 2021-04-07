@@ -2,7 +2,7 @@
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 $url64      = 'https://download.tapaal.net/tapaal/tapaal-3.8/tapaal-3.8.0-win64.zip'
-$checksum64  = '459ED9A1BB796039A1A20AEB6C16A2021FBC8C8279644DED8C2F8D5D7CAD6274'
+$checksum64  = 'EBCD013579B19EB4D2E19AD9EC8E94E600A170C35122A4A062DC0DFB70E72528'
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
