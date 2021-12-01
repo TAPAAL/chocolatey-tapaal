@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>tapaal</id>
-    <version>3.9.0</version>
+    <version>3.9.1</version>
 
     <title>TAPAAL</title>
     <authors>tapaal team</authors>
