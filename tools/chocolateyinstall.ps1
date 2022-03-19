@@ -1,7 +1,7 @@
 ﻿$ErrorActionPreference = 'Stop'; # stop on all errors
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
-$url64      = 'https://download.tapaal.net/tapaal/tapaal-3.9/tapaal-3.9.1-win64.zip'
+$url64      = 'https://download.tapaal.net/tapaal/tapaal-3.9/tapaal-3.9.2-win64.zip'
 $checksum64  = '6236994E03E3E65637A47D9A29C0BBC85D375101C8760D217E209A3E7DFEB726'
 
 $packageArgs = @{
